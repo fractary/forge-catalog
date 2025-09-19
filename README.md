@@ -234,4 +234,4 @@ This catalog is licensed under the MIT License. Individual bundles and starters 
 
 ---
 
-Built with ❤️ by the Fractary team for the developer community.
+Built with ❤️ by the Fractary team for the developer community.# forge-catalog
