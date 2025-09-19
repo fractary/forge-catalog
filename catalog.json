@@ -1,0 +1,90 @@
+{
+  "$schema": "https://forge.fractary.com/schemas/catalog-v1.json",
+  "version": "1.0.0",
+  "name": "Fractary Official Catalog",
+  "description": "Official bundles and starters for Fractary Forge",
+  "updated": "2025-01-19T13:00:00Z",
+  "maintainer": {
+    "name": "Fractary",
+    "email": "forge@fractary.com",
+    "url": "https://fractary.com"
+  },
+  "bundles": [
+    {
+      "id": "agents-engineering",
+      "name": "Engineering Agents Bundle",
+      "description": "AI-powered engineering agents and development utilities for software projects",
+      "repository": "fractary/forge-bundle-agents-engineering",
+      "version": "0.4.0",
+      "author": {
+        "name": "Fractary",
+        "email": "forge@fractary.com"
+      },
+      "tags": ["ai", "engineering", "automation", "claude", "code-review", "testing"],
+      "keywords": ["ai-agents", "code-quality", "security-scanning", "documentation", "development-tools"],
+      "categories": ["development", "ai", "automation"],
+      "license": "MIT",
+      "homepage": "https://github.com/fractary/forge-bundle-agents-engineering",
+      "private": false,
+      "verified": true,
+      "official": true,
+      "downloads": 0,
+      "rating": 5.0
+    },
+    {
+      "id": "claude-code-notifier",
+      "name": "Claude Code Notifier",
+      "description": "Plug-and-play notification system for Claude Code - Never miss when Claude finishes or needs input",
+      "repository": "fractary/forge-bundle-claude-code-notifier",
+      "version": "1.0.0-alpha",
+      "author": {
+        "name": "Omnidas",
+        "email": "hello@omnidas.com"
+      },
+      "tags": ["claude", "claude-code", "notifications", "productivity", "tts"],
+      "keywords": ["slack", "text-to-speech", "termius", "android", "hooks", "developer-tools", "cli"],
+      "categories": ["productivity", "notifications", "claude"],
+      "license": "MIT",
+      "homepage": "https://github.com/fractary/forge-bundle-claude-code-notifier",
+      "private": false,
+      "verified": true,
+      "official": true,
+      "downloads": 0,
+      "rating": 5.0
+    }
+  ],
+  "starters": [
+    {
+      "id": "www-astro-blog",
+      "name": "Astro Blog Starter",
+      "description": "Modern, performant blog starter built with Astro, TypeScript, and Tailwind CSS",
+      "repository": "fractary/forge-starter-www-astro-blog",
+      "version": "1.0.0",
+      "author": {
+        "name": "Fractary",
+        "email": "forge@fractary.com"
+      },
+      "framework": "astro",
+      "language": "typescript",
+      "styling": "tailwindcss",
+      "features": ["blog", "markdown", "mdx", "seo", "rss", "dark-mode", "responsive", "pwa-ready"],
+      "tags": ["blog", "astro", "typescript", "tailwind", "static-site", "jamstack"],
+      "keywords": ["blog", "astro", "markdown", "mdx", "static", "performance", "seo"],
+      "categories": ["website", "blog", "static-site"],
+      "license": "MIT",
+      "homepage": "https://github.com/fractary/forge-starter-www-astro-blog",
+      "demo": "https://astro-blog-starter.fractary.com",
+      "private": false,
+      "verified": true,
+      "official": true,
+      "downloads": 0,
+      "rating": 5.0
+    }
+  ],
+  "metadata": {
+    "totalAssets": 3,
+    "lastUpdate": "2025-01-19T13:00:00Z",
+    "catalogVersion": "1.0.0",
+    "apiVersion": "v1"
+  }
+}

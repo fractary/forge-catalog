@@ -1,0 +1,19 @@
+# GitHub Pages Configuration for Forge Catalog
+title: Fractary Forge Catalog
+description: Official catalog of bundles and starters for Fractary Forge
+theme: null
+plugins: []
+
+# Ensure catalog.json is accessible
+include:
+  - catalog.json
+  - README.md
+  - index.html
+
+# CORS headers for API access
+headers:
+  - path: "catalog.json"
+    headers:
+      Access-Control-Allow-Origin: "*"
+      Access-Control-Allow-Methods: "GET"
+      Content-Type: "application/json"
