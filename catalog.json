@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "name": "Fractary Official Catalog",
   "description": "Official bundles and starters for Fractary Forge",
-  "updated": "2025-01-19T13:00:00Z",
+  "updated": "2025-09-19T13:00:00Z",
   "maintainer": {
     "name": "Fractary",
     "email": "forge@fractary.com",
@@ -11,41 +11,20 @@
   },
   "bundles": [
     {
-      "id": "agents-engineering",
-      "name": "Engineering Agents Bundle",
-      "description": "AI-powered engineering agents and development utilities for software projects",
-      "repository": "fractary/forge-bundle-agents-engineering",
+      "id": "team-core",
+      "name": "Core Team Agents Bundle",
+      "description": "Core set of agents and commands for agentic projects.",
+      "repository": "fractary/forge-bundle-team-core",
       "version": "0.4.0",
       "author": {
         "name": "Fractary",
-        "email": "forge@fractary.com"
+        "email": "admin@fractary.com"
       },
-      "tags": ["ai", "engineering", "automation", "claude", "code-review", "testing"],
-      "keywords": ["ai-agents", "code-quality", "security-scanning", "documentation", "development-tools"],
-      "categories": ["development", "ai", "automation"],
+      "tags": ["ai", "automation", "claude"],
+      "keywords": ["ai-agents", "documentation", "version control"],
+      "categories": ["documentation", "version control", "ai", "automation"],
       "license": "MIT",
-      "homepage": "https://github.com/fractary/forge-bundle-agents-engineering",
-      "private": false,
-      "verified": true,
-      "official": true,
-      "downloads": 0,
-      "rating": 5.0
-    },
-    {
-      "id": "claude-code-notifier",
-      "name": "Claude Code Notifier",
-      "description": "Plug-and-play notification system for Claude Code - Never miss when Claude finishes or needs input",
-      "repository": "fractary/forge-bundle-claude-code-notifier",
-      "version": "1.0.0-alpha",
-      "author": {
-        "name": "Omnidas",
-        "email": "hello@omnidas.com"
-      },
-      "tags": ["claude", "claude-code", "notifications", "productivity", "tts"],
-      "keywords": ["slack", "text-to-speech", "termius", "android", "hooks", "developer-tools", "cli"],
-      "categories": ["productivity", "notifications", "claude"],
-      "license": "MIT",
-      "homepage": "https://github.com/fractary/forge-bundle-claude-code-notifier",
+      "homepage": "https://github.com/fractary/forge-bundle-team-core",
       "private": false,
       "verified": true,
       "official": true,
@@ -82,8 +61,8 @@
     }
   ],
   "metadata": {
-    "totalAssets": 3,
-    "lastUpdate": "2025-01-19T13:00:00Z",
+    "totalAssets": 2, 
+    "lastUpdate": "2025-09-19T13:00:00Z",
     "catalogVersion": "1.0.0",
     "apiVersion": "v1"
   }

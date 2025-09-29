@@ -25,18 +25,7 @@ forge search --type=bundle engineering
 
 ## 📦 Available Assets
 
-### Bundles
-
-| Bundle | Description | Install Command |
-|--------|-------------|----------------|
-| **agents-engineering** | AI-powered engineering agents and development utilities | `forge install fractary/forge-bundle-agents-engineering` |
-| **claude-code-notifier** | Notification system for Claude Code sessions | `forge install fractary/forge-bundle-claude-code-notifier` |
-
-### Starters
-
-| Starter | Description | Create Command |
-|---------|-------------|----------------|
-| **www-astro-blog** | Modern blog built with Astro, TypeScript, and Tailwind | `forge create my-blog --starter fractary/forge-starter-www-astro-blog` |
+See catalog
 
 ## 📋 Catalog Structure
 
